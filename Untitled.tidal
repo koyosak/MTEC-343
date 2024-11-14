@@ -1,0 +1,9 @@
+setcps (0.4)
+d1 $ rarely (# speed 2) $ s "[808bd ~ ~ 808bd][[~ 808bd ~ ~ | ~ ~ 808bd ~]][808bd ~ ~ 808bd][[~ 808bd ~ ~ | ~ ~ 808bd ~]]" # gain ("1.2")
+d2 $ s "[hh hh hh hh][hh hh hh hh][hh hh hh hh][hh hh hh hh]" # hbrick sine # pan ("0.5 0 1") # room ("0.4") # gain ("1.2")
+d3 $ n "[5][~][~ ~ 5 ~][~ [5|[~ 5]] ~ ~]" # sound "bass1" # lpf 400 # gain ("1.2")
+d4 $ n "[0][~][~ ~ 0 ~][~ [0|[~ 0]] ~ ~]" # sound "bass1" # lpf 400 # gain ("1.0")
+d5 $ n "2 4 3 1" # sound "seawolf" # gain ("0.6")
+d6 $ n "2 4 6 8 4 6 8 8 6 8 6 8" # sound "voodoo"
+d7 $ s "koy" # gain ("0.7")
+hushs
